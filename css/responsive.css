@@ -1,0 +1,84 @@
+/* ==========================================
+   Responsive Design - Tablets (1100px)
+========================================== */
+
+@media (max-width: 1100px) {
+
+    /* Image & Dish Grids */
+    .image-grid,
+    .dish-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Split Layouts */
+    .split,
+    .price-layout,
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ==========================================
+   Responsive Design - Mobile (720px)
+========================================== */
+
+@media (max-width: 720px) {
+
+    /* Header */
+    .site-header {
+        position: static;
+    }
+
+    /* Brand */
+    .brand {
+        font-size: 17px;
+    }
+
+    /* Navigation */
+    .nav,
+    .home-nav-strip {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+
+    .nav a,
+    .home-nav-strip a {
+        min-width: max-content;
+    }
+
+    /* Hero Section */
+    .hero {
+        min-height: 560px;
+        padding: 72px 5vw;
+    }
+
+    /* Main Heading */
+    h1 {
+        font-size: 40px;
+    }
+
+    /* Sections */
+    .section {
+        width: min(92vw, 640px);
+        padding: 50px 0;
+    }
+
+    /* Grid Layouts */
+    .image-grid,
+    .image-grid.two,
+    .dish-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Images */
+    .image-card img,
+    .dish-card img {
+        height: 230px;
+    }
+
+}

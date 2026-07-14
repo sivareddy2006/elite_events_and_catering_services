@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Events &amp; Catering Services</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a class="brand" href="home.html">
+            <span>EE</span> Elite Events &amp; Catering Services
+        </a>
+
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="events.html">Events Available</a>
+            <a href="dishes.html">Dishes Available</a>
+            <a href="entertainment.html">Entertainments</a>
+            <a href="prices.html">Prices According To Number Of People</a>
+            <a href="convention-halls.html">Convention Halls</a>
+            <a href="contact.html">Contact</a>
+            <a class="logout-link" href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="sub-hero contact-hero">
+            <h1>Contact</h1>
+            <p>Send an enquiry for catering, events, entertainment and pricing.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-single">
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="contact.html" method="get">
+
+                <h2>Event Enquiry</h2>
+
+                <label>
+                    Name
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+
+                <label>
+                    Phone
+                    <input type="tel" name="phone" placeholder="Phone number" required>
+                </label>
+
+                <label>
+                    City
+                    <input type="text" name="city" placeholder="City">
+                </label>
+
+                <label>
+                    Event Type
+                    <select name="event">
+                        <option>Wedding</option>
+                        <option>Reception</option>
+                        <option>Birthday</option>
+                        <option>Corporate Event</option>
+                        <option>Convention Hall Booking</option>
+                    </select>
+                </label>
+
+                <label>
+                    Message
+                    <textarea name="message" rows="5"
+                        placeholder="Guest count, date and requirements"></textarea>
+                </label>
+
+                <button class="primary-link" type="submit">
+                    Send Enquiry
+                </button>
+
+            </form>
+
+            <!-- Contact Details -->
+            <aside class="contact-note">
+
+                <h2>Contact Details</h2>
+
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+
+                <p><strong>Email:</strong> eliteevents@example.com</p>
+
+                <p>
+                    <strong>Service Area:</strong>
+                    Vijayawada, Visakhapatnam, Guntur, Tirupati,
+                    Rajahmundry, Kakinada, Nellore, Kurnool,
+                    and more cities across Andhra Pradesh.
+                </p>
+
+                <a class="secondary-link" href="convention-halls.html">
+                    View Convention Halls
+                </a>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-quote">
+            Clear communication is the first step to a beautiful celebration.
+        </p>
+    </footer>
+
+</body>
+
+</html>
